@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F02LFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_all"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:text="เอสแอลอี"
+            android:textStyle="bold"
+            android:textSize="28dp"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:text="การรักษา"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="1. ส่งผู้ป่วยไปตรวจที่โรงพยาบาล หรือ ปรึกษาแพทย์ผู้เชี่ยวชาญ ภายในระยะเวลา 3 วัน (ถ้าอยู่ในสถานที่ที่ไม่สามารถทำการตรวจพิเศษต่างๆได้)"
+            android:background="#FCE4EC"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="2. ตรวจพิเศษเพิ่มเติม เช่น ตรวจเลือด ตรวจปัสสาวะ เอ็กซเรย์ เป็นต้น (ถ้าอยู่ในสถานที่ที่ทำได้)"
+            android:background="#FCE4EC"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="เพื่อตรวจหาสาเหตุ"
+            android:background="#FCE4EC"
+            android:textSize="25dp"/>
+
+        <ImageButton
+            android:id="@+id/ImageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/home_g"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

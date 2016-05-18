@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Blank03Fragment">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#FFDEAD"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="ปวดศรีษะจากความเครียด (Tension headache)"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="ปวดศรีษะจากความเครียด (Tension headache) เป็นอาการปวดศรีษะที่พบได้บ่อย ผู้ป่วยปวดศรีษะประมาณร้อยละ 80-90 มีสาเหตุมาจากความเครียดต่าง ๆ เช่น นอนไม่หลับ เครียดทำงาน หนักใช้สมองมาก เป็นต้น"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="อาการ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="ผู้ป่วยจะมีอาการปวดดึงกล้ามเนื้อบริเวณต้นคอรอบ ๆ ศรีษะ ลักษณะการปวดจะคล้าย ๆ กับกล้ามเนื้อถูกบีบรัด บางคนอาจมีอาการปวดตื้อ ไปที่ส่วนบนของศรีษะบริเวณขมับ ใบหน้าและหน้าฝาก อาการปวดเกิดขึ้นช้า ๆ โดยจะไม่มีอาการนำมาก่อน ส่วนใหญ่อาการมักเป็นอยู่ เพียงไม่กี่ชั่วโมงก็จะทุเลาไปเอง อาการไม่รุนแรงมากนัก แต่อาจจะทวีความรุนแรงขึ้นและจะเป็นอยู่ในระยะเวลานาน ๆ เป็นวัน สัปดาห์ หรือเป็นเดือน อาการปวดนี้จะไม่สามารถระงับได้ด้วยยากลุ่ม ergotamine แต่สามารถจะลดลงได้โดยยาแก้ปวด ยากล่อมประสาท ยา นอนหลับหรือยาที่ทำให้ กล้ามเนื้อคลายตัว"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="สิ่งที่ตรวจพบ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="จะไม่มีสิ่งผิดปกติใด ความดันโลหิตอยู่ในเกณฑ์ปกติ"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="การรักษา"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="1. ให้ผู้ป่วยนอนหลับสักพักหนึ่งหรือนวดบริเวณต้นคอและขมับอาการจะดีขึ้น"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="2. ถ้าอาการไม่ดีขึ้น ให้ยาแก้ปวด Paracetamol 500 มก. ครั้งละ 1-2 เม็ด ซ้ำได้ทุก 4-6 ชั่วโมง ในกรณีจากความเครียด นอนไม่หลับ ให้ยากล่อมประสาท"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="3. ถ้าอาการปวดรุนแรง ปวดติดต่อกันนานเกิน 24 ชั่วโมง อาการปวดถี่ หรือปวดรุนแรงขึ้น แนะนำให้ไปพบแพทย์ เพื่อให้การวินิจฉัยและรักษาต่อไป"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:id="@+id/ImageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:src="@drawable/home_g"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.piyaphorn.myapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD0Gjoaxor7sNcva--5j0xfYO644TTXB9I" />
+
+        <activity
+            android:name="activity.LoginAvtivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity><activity
+        android:name="activity.MainActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait" >
+        <intent-filter>
+            <action android:name="com.coderefer.androidsplashscreenexample.MAINACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity
+        android:name="activity.BlankFragment"
+        android:label="  ศีรษะ"
+        android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activity.TwoFragment"
+            android:label="  ลำตัวส่วนบน"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activity.ThreeFragment"
+            android:label="  ลำตัวส่วนล่าง"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.FourFragment"
+            android:label="  เลือกอาการ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01Fragment"
+            android:label="  ไข้"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02Fragment"
+            android:label="  ซีด/โลหิตจาง ร่วมกับมีไข้"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activity.UsingFragment"
+            android:label="  คำแนะนำ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.FromFragment"
+            android:label="  แหล่งที่มา"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.EmailFragment"
+            android:label="  ติชม comment"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activity.F01AFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01BFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01CFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01DFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01EFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01FFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01GFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01HFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01IFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01JFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01KFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01LFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01MFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01NFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01OFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01PFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01QFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01BBFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01BCFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01BDFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F01BEFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02AFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02BFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02CFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02DFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02EFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02FFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02GFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02HFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02IFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02JFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02KFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.F02LFragment"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="activity.Blank01Fragment"
+            android:label="  สมองอักเสบ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Blank02Fragment"
+            android:label="  เนื้องอกในสมอง"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Blank03Fragment"
+            android:label="  ปวดศรีษะจากความเครียด"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Two01Fragment"
+            android:label="  มะเร็งตับ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Two02Fragment"
+            android:label="  ปอดอักเสบ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Two03Fragment"
+            android:label="  กระเพาะอักเสบ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Three01Fragment"
+            android:label="  ต่อมน้ำเหลืองอักเสบ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Three02Fragment"
+            android:label="  กระเพาะปัสสาวะอักเสบ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="activity.Three03Fragment"
+            android:label="  ข้อเสื่อม"
+            android:screenOrientation="portrait" />
+        <activity android:label="@string/app_name"
+            android:name="activity.signupActivity"/>
+
+    </application>
+
+</manifest>

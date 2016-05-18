@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.androidhive.materialdesign.activity.HomeFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:orientation="vertical"
+        android:background="@drawable/sketch_hj"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_marginTop="130dp"
+            android:layout_height="wrap_content"
+            android:text="เลือกอาการ"
+            android:id="@+id/button4"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_marginTop="90dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="ศีรษะ "
+            android:id="@+id/button"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="ลำตัวส่วนบน "
+            android:id="@+id/button2"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="ลำตัวส่วนล่าง "
+            android:id="@+id/button3"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

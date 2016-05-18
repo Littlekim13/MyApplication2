@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="ติชม Comment"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To : "/>
+
+    <EditText
+        android:id="@+id/txtEmailTo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="manetomekawa@gmail.com"
+        android:inputType="textEmailAddress" >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject : "/>
+
+    <EditText
+        android:id="@+id/txtSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message Comment : " />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+</LinearLayout>

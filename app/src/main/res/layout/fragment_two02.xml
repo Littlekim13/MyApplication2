@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Two02Fragment">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#FFDEAD"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="ปอดอักเสบ (Pneumonia)"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="เป็นโรคทางเดินหายใจที่รุนแรงโรคหนึ่ง มักพบในคนที่ไม่แข็งแร็งหรือมีภูมิต้านทานต่ำ หรือจากภาวะแทรกซ้อนของโรคอื่น สาเหตุเกิดจากเชื้อราหรือสารเคมีที่สำคัญที่สุดได้แก่ เชื้อpneumococcus ซึ่งพบได้บ่อย ส่วนเชื้อ staphy lococcus,streptococcus หรือ klebsiella พบได้น้อย แต่ผู้ป่วยจะมีอาการที่รุนแรง นอกจากนั้นอาจเกิดจากเชื่อ Mycoplasma เชื้อไวรัส เชื้อรา หรือสารเคมี"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="อาการ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="มีไข้สูงเกิดขึ้นทันทีทันใด มีอาการหนาวสั่น หายใจหอบ ระยะแรกอาจมีอาการไอแห้ง ๆ ไม่มีเสมหะ ต่อมาอาจมีเสลตสีเหลืองเขียว หรือสีสนิมเหล็กหรือมีเลือดปน มีอาการเจ็บหน้าอก เวลาไอหรือหายใจเข้าแรง ๆ "
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="สิ่งที่ตรวจพบ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="ไข้สูง 39-40 องศาเซลเซียส ลิ้นอาจเป็นผ้า การขยายตัวของทรวงอกน้อยเคาะได้ยินเสียงทึบ (dullness )ฟังปอดอาจมีเสียงหายใจค่อย (diminished breath sound) หรือมีเสียงcrepitation"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="การรักษา"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="1. ในรายที่เริ่มเป็นไม่มีอาการหอบ ให้ผู้ป่วยพักผ่อนให้ดื่มน้ำมาก ๆ ใช้ผ้าชุบน้ำเช็ดตัวเวลามีไข้"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="2. ให้ยาเม็ดลดไข้ Paracetamol"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="3. ถ้ามีอาการไม่ดีภายใน 3 วัน ให้รีบส่งพบแพทย์"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:id="@+id/ImageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:src="@drawable/home_g"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

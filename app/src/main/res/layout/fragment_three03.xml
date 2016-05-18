@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Two01Fragment">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#FFDEAD"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="ข้อเสื่อม (Osteoarthritis)"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="เป็นโรคที่พบบ่อยที่สุด พบมากในหญิงทีอายุ 50 ปีขึ้นไปและมีรูปร่างอ้วน เกิดจากการเลื่องของข้อที่ต้องทำงานหนักมาก เช่น ข้อเข่า ข้อกระดูกสันหลัง ระดับเอว และระดับคอ ข้อเท้า ข้อตะโพก ข้อเล็ก ๆ ของมือ และเท้า โดยเฉพาะ distal interphalangeal joints
+       สาเหตุจากการเสื่อมของข้อจะเกิดขึ้น โดยกระดูกอ่อนภายในข้อถูกแรงกระแทก หรือเสียดสี จนมีลักษณะขุระ เปื่อยยุ่ยและบางลง ร่างกายขะพยายามซ่อมแซมส่วนที่สึกหรอ โดยการสร้างเซลล์กระดูกอ่อนเพิ่มขึ้น มีหินปูนเข้าไปพอกทำให้ผิวกระดูหขรุขระ ช่องระหว่างข้อต่อแคบลง เมื่อเวลาเคลื่อนไหวกระดูกจะเสียดสีกันมีเสียงดังกรุบกรับ และเกิดการเสียดสีต่อเยื่อหุ้มข้อและพังผืด ทำให้เกิดการเจ็บปวดมีอาการอักเสบเฉียบพลัน เป็นบางครั้งบางคราว ร่วมกับมีการอักเสบเรื้อรัง"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="อาการ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="ปวดขัดในข้อ มักเกิดเวลาเปลี่ยนท่านั้ง เป็นท่ายืน เดินไกล ๆ หรือขึ้นบันใดหรือยกของหนัก"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="สิ่งที่ตรวจพบ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="เมื่อจับข้อข้างที่ปวดโยกไปมา มักจะได้ยินเสียงดังกร็อบแกร็บ การตรวจภาพรังสีของข้อ มักจะพบว่าช่องว่างระหว่างกระดูกแข็งแคบลง ขอบกระดูกแข็งมีติ่งกระดูกย้นออกไป การเปลี่ยนแปลงที่เห็นจะมีมากน้อย แล้วแต่กาลเวลา"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="การรักษา"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="1. ในกรณีปวดข้อรุนแรงหรือเป็นชนิดเฉียบพลัน ให้ยาแก้ปวด Aspirin 350 มก. ครั้งละ 3-4 เม็ด วันละ 3-4 ครั้ง"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="2. คนอ้วนหรือมีน้ำหนักเกิดควรพยายามลดน้ำหนัก ให้นั่งเก้าอี้แทนการนั่ง ยอง ๆ หรือนั้งพับเพียบลงกับพื้น"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="3. ต้องบริหารและฝึกฝนกล้ามเนื้อบริเวณข้อที่ปวดให้แข็งแร็งขึ้น โดยเกร็งกล้ามเนื้อประมาณ 5-10 นาที พัก ทำซ้ำ 10 ครั้ง วันละ4-5 ครั้ง นอกจากการรักษาอาการปวดข้อได้แล้ว ยังสามารถป้องกันให้โรคปวดข้อกำเริบได้อีก"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="4. หลีกเลี่ยงการใช้ยาทา ถูก หรือ กัด เพราะจะทำให้เกิดการอักเสบ ขึ้นได้ง่าย"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="5. ถ้าอาการไม่ดีขึ้น แนะนำให้พบแพทย์เพื่อทำการวินิจฉัยโรคและรักษาต่อไป"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:id="@+id/ImageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:src="@drawable/home_g"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

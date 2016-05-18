@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F01HFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_all"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:text="แหล่งอ้างอิงข้อมูล"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            android:src="@drawable/from_web"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="หนังสือ: ตำราการตรวจรักษาโรคทั่วไป 1 แนวทางการตรวจรักษาโรคและการใช้ยา"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="โดย: นายแพทย์สุรเกียรติ อาชานานุภาพ"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

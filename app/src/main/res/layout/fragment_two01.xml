@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Two01Fragment">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="#FFDEAD"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="มะเร็งตับ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="เป็นโรคมะเร็งที่พบได้บ่อยในผู้ชายมากกว่าผู้หญิงประมาณ 4-5 เท่า ซึ่งอาจจะแบ่งออกเป็น 2 ชนิด
+1. มะเร็งของเซลล์ตับ (Hepatoma /hepatocallular carcinma)เชื่อว่ามีสาเหตุสัมพันธ์กับโรคตับอักเสบ ไวรัสบี และตับแข็ง และยังพบว่าสาว aflatoxin จากเชื้อรา ที่ขึ้นบนถั่วลิสง ข้าวโพด หัวหอม กระเทียม เป็นสาเหตุสำคัญของมะเร็งชนิดนี้ด้วย
+2. มะเร็งของเซลล์ท่อน้ำดี (Cholangiocarcinoma)เชื่อว่ามีสาเหตุสัมพันธ์กันโรคพยาธิใบไม้ในตับ และสาร nitrosamine เป็นสารพิษที่พบในอาหารพวกโปรตีนหมัก และอาหารเนื้อสัตว์ที่ผสมดินประสิว เช่นปลาร้า ปลาสับ หมูสับ แหนม กุนเชียง ไส้กรอก เป็นต้น"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="อาการ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="มีไข้ต่ำ ๆ อ่อนเพลีย เบื่ออาหาร ท้องอืดเฟ้อคล้ายอาหารไม่ย่อย ต่อมาจะผอม ลงอย่างรวดเร็ว ในระยะหลัง ๆ ผู้ป่วยมีอาการเจ็บใต้ชายโครงขวา มีตัวเหลือง ตาเหลือง ท้องมานน้ำ และอาจมีม้ามโต อาเจียนหรือถ่ายเป็นเลือด"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="สิ่งที่ตรวจพบ"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="ไข้ ดีซ่าน ตับโต และมีอาการกดเจ็บบริเวณใต้ชายโครงขวา และอาจคลำได้ก้อนแข็งขุระที่บริเวณใต้ชายโครงขวา"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:text="การรักษา"
+                android:textStyle="bold"
+                android:textSize="28dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:text="ถ้าสงสัยให้รีบส่งแพทย์ เพื่อการตรวจอุจจาระ ตรวจเลือด หรืออาจทำ liver scan"
+                android:textSize="20dp"/>
+
+            <ImageButton
+                android:id="@+id/ImageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:src="@drawable/home_g"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

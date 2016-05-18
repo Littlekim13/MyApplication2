@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".F01HFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_all"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="คำแนะนำ"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text="อาการเจ็บป่วย: ดูแนวทางปฏิบัติตนเพื่อบรรเทาอาการเจ็บป่วยเบื้องต้นด้วยตนเอง เช่น เป็นไข้ ไอ เจ็บคอ ปวดศีรษะ ปวดท้อง ท้องเสีย อ่อนเพลีย น้ำหนักลด เป็นลม เป็นต้น"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:text="โรค: รายละเอียดของโรคที่เกี่ยวข้องกับอาการเจ็บป่วยต่างๆ ตั้งแต่ที่มา สาเหตุ อาการ การรักษา และการดูแลตนเอง ครอบคลุมโรคต่างๆ มากมาย เช่น ไข้หวัดใหญ่ เบาหวาน โรคหัวใจ มะเร็งต่างๆ ใส่ติ่งอักเสบ ไมเกรน เป็นต้น"
+            android:textSize="25dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

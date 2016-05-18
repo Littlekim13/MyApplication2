@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blank01Fragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FFDEAD"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:text="สมองอักเสบ (Encephalitis)"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="เป็นโรคที่พบได้ทั้งในเด็กและผู้ใหญ่สาเหตุเกิดจากเชื้อไวรัส ซึ่งอยูหลายชนิดที่พบบ่อยคือ Japanese B Virus ซึ่งปกติอาศัยอยู่ในสัตว์เลี้ยงเช่น หมู แพะ ม้า เป็นต้น ติดต่อ ถึงคนโดยยุงรำคาญ (culex)"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:text="อาการ"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="มีไข้สูงอย่างเฉียบพลัน ปวดศรีษะ อ่อนเพลีย คลื่นไส้ อาเจียน ผู้ป่วยอาจจะซึมลงเรื่อย ๆ จนไม่รู้สึกตัว อาจมีอาการชักร่วมด้วย"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:text="สิ่งที่ตรวจพบ"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="ไข้สูง ซึม หรือหมดสติ deep tenden refax ไวกว่าปกติ อาจมีมือสั่น หรืออาการอัมพาตของแขน ขา"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_margin="15dp"
+            android:text="การรักษา"
+            android:textStyle="bold"
+            android:textSize="28dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:text="หากสงสัย ให้รีบส่งแพทย์ ซึ่งอาจจะวินิจฉัยโรคโดยการเจาะหลัง (lumbar puncture)เพื่อตรวจน้ำไขสันหลัง และอาจจะต้องตรวจคลื่นสมองต่อไป"
+            android:textSize="20dp"/>
+
+        <ImageButton
+            android:id="@+id/ImageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:src="@drawable/home_g"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>
