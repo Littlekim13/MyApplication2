@@ -59,6 +59,16 @@ public class MessagesFragment extends Fragment {
 
             }
         });
+
+        Button button3= (Button) rootView.findViewById(R.id.button4);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent newActivity = new Intent(getActivity(), AlarmActivity.class);
+                startActivity(newActivity);
+
+            }
+        });
         // Inflate the layout for this fragment
         return rootView;
     }
